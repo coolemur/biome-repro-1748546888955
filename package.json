@@ -6,6 +6,7 @@
 	"scripts": {
 		"format": "biome format .",
 		"lint": "biome lint",
+		"lint-bug": "BIOME_CONFIG_PATH=/Users/Mantas/.config/biome-config.json biome lint",
 		"check": "biome check",
 		"ci": "biome ci"
 	},
